@@ -4,9 +4,9 @@ name: Refresh
 on:
   schedule:
     - cron:  '10 * * * *' # Runs every day at 3am
-
-on:
-  push
+  push:
+     branches:
+      - 'main'
 
 jobs:
   refresh:
