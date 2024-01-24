@@ -3,8 +3,9 @@ body {
     background-color: blue;
 }
 
-.top_banner {
+#top_banner {
     width: 100%;
-    height: 10vh;
+    height: 5vh;
+    min-height: 100px;
     background-color: red;
 }
