@@ -6,6 +6,5 @@ body {
 #top_banner {
     width: 100vw;
     height: 5vh;
-    min-height: 100px;
     background-color: red;
 }
