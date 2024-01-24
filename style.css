@@ -3,8 +3,14 @@ body {
     background-color: blue;
 }
 
-#top_banner {
+.top_banner {
     width: 100vw;
     height: 5vh;
     background-color: red;
+}
+
+.side_bar {
+    width: 25vw;
+    height: 100%;
+    background-color: green;
 }
