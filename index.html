@@ -7,13 +7,17 @@
                 const button = document.getElementById('collapse_side_bar');
                 const side_bar = document.getElementsByClassName('side_bar')[0];
                 
+                button.onclick = () => {
+                    
                 console.log(side_bar.style.display);
 
-                if (side_bar.style.display == "none") {
-                    side_bar.style.display = "block"
-                } else {
-                    side_bar.style.display = "none"
+                    if (side_bar.style.display == "none") {
+                        side_bar.style.display = "block"
+                    } else {
+                        side_bar.style.display = "none"
+                    }
                 }
+
 
             }
         </script>
