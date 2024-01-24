@@ -1,12 +1,26 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
+        <script>
+            window.onload = () => {
+
+                const button = document.getElementById('collapse_side_bar');
+                const side_bar = document.getElementsByClassName('side_bar')[0];
+
+                if (side_bar.style.display == "none") {
+                    side_bar.style.display = "block"
+                } else {
+                    side_bar.style.display = "none"
+                }
+
+            }
+        </script>
     </head>
     <body>
         <div class="wrapper">
 
             <div class="top_banner">
-                static shit
+               <button id="collapse_side_bar"> - </button>
              </div>
              <div class="side_bar"></div>
 
