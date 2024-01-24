@@ -5,6 +5,9 @@ on:
   schedule:
     - cron:  '1 * * * *' # Runs every day at 3am
 
+on:
+  push
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
